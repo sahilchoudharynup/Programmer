@@ -1,0 +1,61 @@
+Q.Find largest of three number?
+Solution :
+CODE :
+
+package suraj;
+
+public class programmer {
+
+	public static void main(String[] args) {
+		int a = 8 ;
+		int b = 9;
+		int c = 25;
+		int result = 0 ;
+		
+		if (a>b && a>c) {
+			result = a;
+			
+		}else {
+			result = b ;
+		}
+		if(b>c && b>a){
+			result = b;
+			
+		}else {
+			result = c;
+		}
+		if(c>b) {
+			result = c;
+		}
+		System.out.println(result +" is greater among three of them ");
+
+	}
+
+}
+  
+
+
+                                                               OR
+
+
+
+BY TERNARY OPERATOR 
+
+CODE :
+
+package suraj;
+
+public class programmer {
+
+	public static void main(String[] args) {
+		int a = 8 ;
+		int b = 9;
+		int c = 25;
+		int result = 0 ;
+		
+		result = a>b?a>c?a:c:b>c?b:c;
+		System.out.println(result + " is greater among them ");
+	}
+
+}
+
