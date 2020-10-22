@@ -1,0 +1,25 @@
+Q. Find Factorial of a number given by user ?
+Solution :
+
+CODE:
+
+package suraj;
+
+import java.util.Scanner;
+
+public class programmer {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+          
+		int factorial = 1;
+		System.out.println(" Enter number ");
+		int n = sc.nextInt();
+		
+		for (int i =n;i>=1;i--) {
+			factorial = factorial*i;
+		}
+		System.out.println(factorial);
+	}
+
+}
